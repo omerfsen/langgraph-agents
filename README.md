@@ -1,8 +1,14 @@
 # LangGraph Agents — AI Job Research Assistant
 
+[![Docker Hub](https://img.shields.io/docker/pulls/omerfsen/langgraph-agents?logo=docker&label=Docker%20Hub)](https://hub.docker.com/r/omerfsen/langgraph-agents)
+[![Docker Image](https://img.shields.io/badge/image-omerfsen%2Flanggraph--agents-blue?logo=docker)](https://hub.docker.com/r/omerfsen/langgraph-agents)
+[![Python](https://img.shields.io/badge/python-3.14-blue)](https://www.python.org/)
+
 A multi-agent pipeline built with [LangGraph](https://github.com/langchain-ai/langgraph) that researches a job title, extracts required skills, and produces a personalised gap analysis report against a candidate profile.
 
 Built as a portfolio project demonstrating LangGraph state graph orchestration with Claude as the LLM backbone.
+
+> **Docker Hub:** [hub.docker.com/r/omerfsen/langgraph-agents](https://hub.docker.com/r/omerfsen/langgraph-agents)
 
 ## Architecture
 
@@ -111,7 +117,8 @@ Strong infrastructure background with 85% skill match for AI Engineer roles...
 
 - **[LangGraph](https://github.com/langchain-ai/langgraph)** — agent graph orchestration
 - **[Anthropic Claude](https://www.anthropic.com)** (claude-sonnet-4-6) — LLM for all reasoning nodes
-- **Python 3.11+**
+- **Python 3.14**
+- **Docker** — [omerfsen/langgraph-agents](https://hub.docker.com/r/omerfsen/langgraph-agents)
 
 ## Related Articles
 
